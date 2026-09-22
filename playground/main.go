@@ -61,17 +61,19 @@ import (
 // 	fmt.Printf("count: %d\n", c.count)
 // }
 
-/*
-Go channels
-*/
+// /*
+// Go channels
+// */
 
-func main() {
-	ch := make(chan int)
+// func main() {
+// 	ch := make(chan int)
 
-	go func() {
-		ch <- 1
-	}()
+// 	go func() {
+// 		ch <- 1
+// 	}()
 
-	result := <-ch
-	fmt.Println(result)
-}
+// 	result := <-ch
+// 	fmt.Println(result)
+// }
+
+
